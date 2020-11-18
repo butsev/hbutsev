@@ -1,0 +1,12 @@
+pour_count = int(input())
+filled_qnt = 0
+
+for i in range(pour_count):
+    pour_count = int(input())
+    filled_qnt += pour_count
+    
+    if filled_qnt >= 250:
+        print("Insufficinet capacity")
+        filled_qnt -= pour_cour
+        continue
+    print(filled_qnt)
